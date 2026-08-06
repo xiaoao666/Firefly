@@ -3,6 +3,10 @@ import type { SiteConfig } from "@/types/siteConfig";
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru', 'ko'。
 const SITE_LANG = "zh_CN";
+const SITE_URL =
+	typeof process !== "undefined" && process.env.PUBLIC_SITE_URL
+		? process.env.PUBLIC_SITE_URL
+		: "https://xiaoao666.github.io";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
@@ -12,7 +16,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "技术 · 设计 · 生活",
 
 	// 站点 URL
-	site_url: "https://xiaoao666.github.io",
+	site_url: SITE_URL,
 
 	// 站点描述
 	description: "小傲的个人博客，记录全栈开发、Cloudflare、UI 设计与日常思考。",
