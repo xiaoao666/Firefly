@@ -86,8 +86,13 @@ if (title) {
 
 let ogImageUrl: string | undefined;
 if (siteConfig.post.generateOgImages && postSlug) {
-	ogImageUrl = new URL(`/og/${postSlug}.png`, Astro.site).toString();
+	ogImageUrl = new URL(url(`/og/${postSlug}.png`), Astro.site).toString();
 }
+
+const rssUrl = new URL(
+	url("rss.xml"),
+	Astro.site ?? new URL(siteConfig.site_url),
+).href;
 
 const favicons: Favicon[] =
 	siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons;
@@ -565,7 +570,7 @@ const siteLang = lang.replace("_", "-");
       rel="alternate"
       type="application/rss+xml"
       title={profileConfig.name}
-      href={`${Astro.site}rss.xml`}
+      href={rssUrl}
     />
 
     <!-- Font Setup (Astro Font API) -->

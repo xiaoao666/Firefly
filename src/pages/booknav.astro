@@ -10,10 +10,11 @@ import {
 	getEnabledBooknavGroups,
 	resolveBooknavIcon,
 } from "@/utils/booknav-utils";
+import { url } from "@/utils/url-utils";
 
 // 检查页面是否启用
 if (!siteConfig.pages.booknav) {
-	return Astro.redirect("/404/");
+	return Astro.redirect(url("/404/"));
 }
 
 // 使用配置文件中的书签数据，按权重排序

@@ -33,7 +33,7 @@ import {
 	mermaidConfig,
 	plantumlConfig,
 	siteConfig,
-} from "./src/config";
+} from "./src/config/index.ts";
 import I18nKey from "./src/i18n/i18nKey";
 import { i18n } from "./src/i18n/translation";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
@@ -63,11 +63,14 @@ const adapter = process.env.CF_WORKERS
 		})
 	: undefined;
 
+const basePath =
+	process.env.BASE_PATH || (process.env.GITHUB_ACTIONS ? "/Firefly/" : "/");
+
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.site_url,
 
-	base: "/",
+	base: basePath,
 	trailingSlash: "always",
 
 	// 字体配置 - 只加载实际使用的字体，跳过未引用的以加快构建
@@ -233,8 +236,12 @@ export default defineConfig({
 			filter: (page) => {
 				// 根据页面开关配置过滤sitemap
 				const url = new URL(page);
-				const pathname = url.pathname;
-				if (pathname === "/dynamic/" && !siteConfig.pages.dynamic) {
+				const basePrefix = basePath === "/" ? "" : basePath.replace(/\/$/, "");
+				const pathname =
+					basePrefix && url.pathname.startsWith(basePrefix)
+						? url.pathname.slice(basePrefix.length) || "/"
+						: url.pathname;
+				if (pathname.startsWith("/dynamic/") && !siteConfig.pages.dynamic) {
 					return false;
 				}
 				if (pathname === "/friends/" && !siteConfig.pages.friends) {
@@ -252,7 +259,7 @@ export default defineConfig({
 				if (pathname === "/bangumi/" && !siteConfig.pages.bangumi) {
 					return false;
 				}
-				if (pathname === "/gallery/" && !siteConfig.pages.gallery) {
+				if (pathname.startsWith("/gallery/") && !siteConfig.pages.gallery) {
 					return false;
 				}
 				if (pathname === "/anime/" && !siteConfig.pages.anime) {

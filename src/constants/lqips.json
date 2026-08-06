@@ -33,5 +33,12 @@
   "src:content/posts/images/1.avif": "b5b0b3bcb6bbe0e0df",
   "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
   "src:assets/images/logo/firefly-light.png": "000000000000000000",
-  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff"
+  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff",
+  "src:content/posts/images/xiaoao-ui.jpg": "858ea99190ab998096",
+  "src:content/posts/images/xiaoao-quality.jpg": "3736393633362e2a37",
+  "src:content/posts/images/xiaoao-portfolio.jpg": "86657fc6a6c0a890ab",
+  "src:content/posts/images/xiaoao-cloudflare.jpg": "6b9bef62a6f4c7dffb",
+  "src:assets/images/DesktopWallpaper/xiaoao-sky.jpg": "6b9bef62a6f4c7dffb",
+  "src:assets/images/DesktopWallpaper/xiaoao-sakura.jpg": "86657fc6a6c0a890ab",
+  "src:assets/images/DesktopWallpaper/xiaoao-afternoon.jpg": "858ea99190ab998096"
 }

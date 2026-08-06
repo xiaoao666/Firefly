@@ -9,10 +9,11 @@ import { i18n } from "@/i18n/translation";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
 import type { StandardizedAnime } from "@/types/anime";
 import { formatDateI18nWithTime } from "@/utils/date-utils";
+import { url } from "@/utils/url-utils";
 
 // 检查页面是否启用
 if (!siteConfig.pages.anime) {
-	return Astro.redirect("/404/");
+	return Astro.redirect(url("/404/"));
 }
 
 // 获取构建时间

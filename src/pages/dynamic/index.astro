@@ -10,7 +10,7 @@ import "@/styles/dynamic.css";
 import { url } from "@/utils/url-utils";
 
 if (!siteConfig.pages.dynamic) {
-	return Astro.redirect("/404/");
+	return Astro.redirect(url("/404/"));
 }
 
 const title = dynamicConfig.title || i18n(I18nKey.dynamic);
