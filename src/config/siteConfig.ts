@@ -6,11 +6,11 @@ const SITE_LANG = "zh_CN";
 const SITE_URL =
 	typeof process !== "undefined" && process.env.PUBLIC_SITE_URL
 		? process.env.PUBLIC_SITE_URL
-		: "https://xiaoao666.github.io";
+		: "https://630902.xyz";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "小傲博客",
+	title: "xiaoao‘blog",
 
 	// 站点副标题
 	subtitle: "技术 · 设计 · 生活",
@@ -19,18 +19,10 @@ export const siteConfig: SiteConfig = {
 	site_url: SITE_URL,
 
 	// 站点描述
-	description: "小傲的个人博客，记录全栈开发、Cloudflare、UI 设计与日常思考。",
+	description: "xiaoao 的个人博客，记录代码、项目实践与学习笔记。",
 
 	// 站点关键词
-	keywords: [
-		"小傲博客",
-		"全栈开发",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"UI 设计",
-	],
+	keywords: ["xiaoao‘blog", "代码爱好者", "Astro", "博客", "技术博客", "编程"],
 
 	// 主题色
 	themeColor: {
@@ -84,7 +76,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "小傲博客",
+		title: "xiaoao‘blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中

@@ -1,7 +1,13 @@
 {
-	"name": "firefly",
-	"compatibility_date": "2025-01-01",
+	"name": "xiaoao-firefly-site",
+	"compatibility_date": "2026-08-07",
 	"compatibility_flags": ["nodejs_compat"],
+	"routes": [
+		{
+			"pattern": "630902.xyz",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"directory": "./dist"
 	}

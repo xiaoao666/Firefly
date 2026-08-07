@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "https://github.com/xiaoao666.png",
 
 	// 名字
-	name: "小傲",
+	name: "xiaoao",
 
 	// 个人签名
-	bio: "全栈开发者 · ACGN 爱好者 · 记录代码与生活",
+	bio: "代码爱好者",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

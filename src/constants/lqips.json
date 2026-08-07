@@ -34,11 +34,16 @@
   "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
   "src:assets/images/logo/firefly-light.png": "000000000000000000",
   "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff",
-  "src:content/posts/images/xiaoao-ui.jpg": "858ea99190ab998096",
-  "src:content/posts/images/xiaoao-quality.jpg": "3736393633362e2a37",
-  "src:content/posts/images/xiaoao-portfolio.jpg": "86657fc6a6c0a890ab",
-  "src:content/posts/images/xiaoao-cloudflare.jpg": "6b9bef62a6f4c7dffb",
   "src:assets/images/DesktopWallpaper/xiaoao-sky.jpg": "6b9bef62a6f4c7dffb",
   "src:assets/images/DesktopWallpaper/xiaoao-sakura.jpg": "86657fc6a6c0a890ab",
-  "src:assets/images/DesktopWallpaper/xiaoao-afternoon.jpg": "858ea99190ab998096"
+  "src:assets/images/DesktopWallpaper/xiaoao-afternoon.jpg": "858ea99190ab998096",
+  "public:images/legacy/fb082955-e8cc-474a-9b4c-88ca3188fa26.png": "282a472821442a2046",
+  "public:images/legacy/e66eb3cb-c7b5-4df8-930a-f9af0148edc2.png": "1d2438171e31151e31",
+  "public:images/legacy/e10c03dd-641f-4bfe-a7f8-3692ce378d3a.jpg": "cf99e8f2ccfad29bd7",
+  "public:images/legacy/e0502394-b9cd-4549-a168-b753c7f2bdda.png": "1e2639151d30101729",
+  "public:images/legacy/b418fe94-7b58-44a6-88cb-4f58cf730b70.jpg": "b08d8fb68f83ad7d6e",
+  "public:images/legacy/a28b9dc0-9310-44e3-b028-6086f54bb077.jpg": "dcd5d8a2a8af57616b",
+  "public:images/legacy/a2450750-5c0b-4c7c-8025-598686dc3cd8.png": "1a2235151c2e151e32",
+  "public:images/legacy/826969e9-1acf-43d3-889f-43d4fc09bac1.jpg": "725a5c604a5479565f",
+  "public:images/legacy/62f17d7d-7fcf-44c8-8738-3477d49664d0.jpg": "987baab253949a7cb2"
 }

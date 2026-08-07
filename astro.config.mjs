@@ -63,8 +63,7 @@ const adapter = process.env.CF_WORKERS
 		})
 	: undefined;
 
-const basePath =
-	process.env.BASE_PATH || (process.env.GITHUB_ACTIONS ? "/Firefly/" : "/");
+const basePath = process.env.BASE_PATH || "/";
 
 // https://astro.build/config
 export default defineConfig({
