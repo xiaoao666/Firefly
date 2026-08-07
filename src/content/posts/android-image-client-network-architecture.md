@@ -5,7 +5,7 @@ updated: 2026-07-23
 description: "从 OAuth/PKCE、opaque 分页和 JSON 归一化，到 DoH/Cronet 传输、图片域名路由与 DownloadManager 持久化，拆解一套 Android 图片客户端如何把不稳定因素关进边界。"
 image: "/images/legacy/e10c03dd-641f-4bfe-a7f8-3692ce378d3a.jpg"
 tags: ["java","Android","网络工程","客户端架构","性能优化"]
-category: ""
+category: "Android 开发"
 draft: false
 pinned: false
 comment: true

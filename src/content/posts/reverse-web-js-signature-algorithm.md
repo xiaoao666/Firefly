@@ -5,7 +5,7 @@ updated: 2026-07-23
 description: "从 Python 子进程、jsdom 骨架、Proxy 环境观测到内部 dispatcher 入口，完整拆解大型浏览器脚本的离线执行与可复现验证。"
 image: "/images/legacy/62f17d7d-7fcf-44c8-8738-3477d49664d0.jpg"
 tags: ["js"]
-category: ""
+category: "逆向工程"
 draft: false
 pinned: false
 comment: true

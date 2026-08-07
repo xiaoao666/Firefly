@@ -5,7 +5,7 @@ updated: 2026-07-23
 description: "从 GLSurfaceView 帧循环、JNI 生命周期和窗口命中，到隐藏 EditText 的 IME 桥，拆解 Android Dear ImGui 的完整工程边界。"
 image: "/images/legacy/b418fe94-7b58-44a6-88cb-4f58cf730b70.jpg"
 tags: ["imgui","java","egl"]
-category: ""
+category: "Android 开发"
 draft: false
 pinned: false
 comment: true

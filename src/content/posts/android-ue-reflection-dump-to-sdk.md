@@ -5,7 +5,7 @@ updated: 2026-07-23
 description: "结合 GWorld、FNamePool、GUObjectArray 的定位思路，拆解 Android 外部读内存、反射对象遍历、属性布局兼容与 SDK 生成验证。"
 image: "/images/legacy/826969e9-1acf-43d3-889f-43d4fc09bac1.jpg"
 tags: ["UE","逆向","UE引擎"]
-category: ""
+category: "逆向工程"
 draft: false
 pinned: false
 comment: true

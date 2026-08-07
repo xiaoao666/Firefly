@@ -5,7 +5,7 @@ updated: 2026-07-23
 description: "一次内容发布链路的状态机拆解：公开快照、版本化缓存、异步任务、并发写入与可恢复性。"
 image: "/images/legacy/a28b9dc0-9310-44e3-b028-6086f54bb077.jpg"
 tags: []
-category: ""
+category: "Cloudflare"
 draft: false
 pinned: false
 comment: true
